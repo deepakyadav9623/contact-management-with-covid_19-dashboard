@@ -1,7 +1,6 @@
 
 import React, { useEffect, useState } from "react";
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
-import axios from "axios";
 import { useQuery } from "react-query";
 
 interface CountryData {

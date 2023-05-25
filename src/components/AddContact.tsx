@@ -24,7 +24,7 @@ interface Edited {
 const AddContact: React.FC<AddContactProps> = ({ setIsModalOpen, isEdit }) => {
 
     const dispatch = useDispatch();
-    const contactList = useSelector((state) => state);
+    // const contactList = useSelector((state) => state);
 
     const initialValues: FormValues = {
         firstName: isEdit ? isEdit.firstName : '',
